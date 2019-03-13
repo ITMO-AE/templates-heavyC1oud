@@ -6,7 +6,7 @@ using namespace std;
 
 template <typename T>
 
-vector<T> sqr(vector<T> data)
+vector<T> sqr(const vector<T> &data)
 {
     vector<T> a;
 
