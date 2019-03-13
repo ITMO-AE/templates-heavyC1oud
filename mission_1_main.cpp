@@ -19,7 +19,7 @@ vector<T> sqr(const vector<T> &data)
 
 
 template <typename T>
-T sqrMember(T data)
+T sqrMember(const T &data)
 {
     T a;
 
@@ -30,7 +30,7 @@ T sqrMember(T data)
 
 
 template <typename T, typename Y>
-pair<T, Y> sqrMember(pair<T, Y> data)
+pair<T, Y> sqrMember(const pair<T, Y> &data)
 {
     pair<T, Y> a;
 
@@ -42,7 +42,7 @@ pair<T, Y> sqrMember(pair<T, Y> data)
 
 
 template <typename T, typename Y>
-map<T, Y> sqr(map<T, Y> data)
+map<T, Y> sqr(const map<T, Y> &data)
 {      
     map<T, Y> a;
     pair<T, Y> b;
@@ -66,7 +66,7 @@ map<T, Y> sqr(map<T, Y> data)
 
 
 template <typename T, typename Y, typename Z>
-map<T, pair<Y, Z>> sqr(map<T, pair<Y, Z>> data)
+map<T, pair<Y, Z>> sqr(const map<T, pair<Y, Z>> &data)
 {
     map<T, pair<Y, Z>> a;
     pair<T, pair<Y, Z>> b;
